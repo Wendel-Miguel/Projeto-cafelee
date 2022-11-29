@@ -1,0 +1,300 @@
+﻿body
+{
+    margin:0;
+    background-size:cover;
+    background-color:#f6f2ee;
+}
+
+.HomeFirstHalf
+{
+    position:absolute;
+    top:28%;
+}
+
+section
+{
+    margin:0;
+    background-size:cover;
+}
+
+.MainBanner
+{
+    height:100%;
+    width:100%;
+}
+
+.Subtitle
+{
+    position: absolute;
+    margin-top:-25%;
+    margin-left:27%;
+    color:white;
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    font-weight:normal;
+}
+
+.Title
+{
+    position:absolute;
+    margin-top:-20%;
+    margin-left:33%;
+    color:white;
+    font-size:40px;
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.ViewMoreButton
+{
+    z-index:1;
+    position:absolute;
+    margin-top:45%;
+    margin-left:-55%;
+    padding:10px 25px;
+    border:1px solid #F1BA4C;
+    background-color:#F1BA4C;
+    color:white;
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    font-size:17px;
+}
+
+.SubBanner1
+{
+    position:absolute;
+    margin-top:3%;
+    margin-left:5%;
+}
+
+.SubBannerImage
+{
+    width:100%;
+    height:100%;
+}
+
+.SubBannerTitle1
+{
+    margin-left:10%;
+    margin-top:-40%;
+    color:white;
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    text-orientation:sideways-left;
+    font-weight:lighter;
+    font-size:35px;
+}
+
+.SubBannerLink
+{
+    margin-left:10%;
+    margin-top:20%;
+    color:white;
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+.SubBanner2
+{
+    position:absolute;
+    margin-top:3%;
+    margin-left:50%;
+}
+
+.ProductsTitle
+{
+    position:absolute;;
+    margin-top:29%;
+    margin-left:5%;
+    color:black;
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.Product1
+{
+    position:absolute;
+    margin-top:35%;
+    margin-left:5%;
+}
+
+.ProductImg
+{
+    width:80%;
+    height:80%;
+}
+
+.ReviewStarsImg
+{
+    width:25%;
+    height:25%;
+    margin-top:3%;
+}
+
+.ProductName
+{
+    margin-top:3%;
+    color: black;
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    font-size:17px;
+    font-weight:bold;
+}
+
+.ProductPrice
+{
+    margin-top:1%;
+    color:#825540;
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.Product2
+{
+    position:absolute;
+    margin-top:35%;
+    margin-left:27.4%;
+}
+
+.Product3
+{
+    position:absolute;
+    margin-top:35%;
+    margin-left:50%;
+}
+
+.Product4
+{
+    position:absolute;
+    margin-top:35%;
+    margin-left:72.4%;
+}
+
+.ParralaxImg
+{
+    position:absolute;
+    margin-top:75%;
+    width:100%;
+    height:110%;
+}
+
+.TagImg
+{
+    position:absolute;
+    margin-top:80%;
+    margin-left:40%;
+    width:17%;
+    height:25%;
+}
+
+.txt1
+{
+    position:absolute;
+    margin-top:95%;
+    margin-left:30%;
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    font-size:35px;
+    color:white;
+}
+
+.txt2
+{
+    position:absolute;
+    margin-top:102%;
+    margin-left:20%;
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    font-size:50px;
+    font-weight:700;
+    color:white;
+}
+
+greybanner
+{
+    position:absolute;
+    width:100%;
+    margin-top:115%;
+    background-color:#0a0a0a;
+    padding-bottom:9.5%;
+}
+
+circle
+{
+    background-color:white;
+    padding: 3% 3%;
+    border-radius:100%;
+}
+
+.Circle1
+{
+    position:absolute;
+    margin-top:2%;
+    margin-left:7%
+}
+
+.CoffeCircleImg
+{
+    position:absolute;
+    width:50px;
+    height:50px;
+    margin-top:-28%;
+    margin-left:-30%
+}
+
+.GreyBannerText1
+{
+    position:absolute;
+    margin-left:14%;
+    margin-top:4%;
+    color:white;
+    font-family:'Poppins';
+    font-size:20px;
+}
+
+.Circle2
+{
+    position:absolute;
+    margin-top:2%;
+    margin-left:40%;
+}
+
+.DeliveryCircleImg
+{
+    position:absolute;
+    width:80px;
+    height:80px;
+    margin-top:-49%;
+    margin-left:-48%
+}
+
+.GreyBannerText2
+{
+    position:absolute;
+    margin-left:47%;
+    margin-top:4%;
+    color:white;
+    font-family:'Poppins';
+    font-size:20px;
+}
+
+.Circle3
+{
+    position:absolute;
+    margin-top:2%;
+    margin-left:73%;
+}
+
+.SupportCircleImg
+{
+    position:absolute;
+    width:50px;
+    height:50px;
+    margin-top:-28%;
+    margin-left:-30%
+}
+
+.GreyBannerText3
+{
+    position:absolute;
+    margin-left:80%;
+    margin-top:4%;
+    color:white;
+    font-family:'Poppins';
+    font-size:20px;
+}

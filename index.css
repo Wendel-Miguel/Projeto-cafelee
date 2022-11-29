@@ -1,0 +1,371 @@
+body{
+    background-color:#F6F2EE;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.HomeSecondHalf
+{
+    margin-top:165%;
+}
+
+.imagem1{
+    height: 273px;
+    width: 569px;
+    position: absolute;
+}
+#text1{
+    font-weight: bold;
+    font-size: 39px;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 54px;
+    letter-spacing: 2px;
+}
+.foto{
+    margin-top: 58px;
+    margin-left: 75px;
+    position: absolute;
+}
+#text2{
+    position: absolute;
+    margin-left: 311px;
+    margin-top: 105px;
+    display: block;
+    font-size: 38px;
+    font-weight: 200;
+    letter-spacing: 0;
+    line-height: 27px;
+    width: 248px;
+}
+#text3{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 155px;
+    font-size: 68px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #995c31;
+    font-family: Arial,sans-serif;
+}
+#text4{
+    position: absolute;
+    margin-left: 451px;
+    margin-top: 192px;
+    font-size: 28px;
+    color: #995c31;
+    font-family: Arial,sans-serif;
+}
+#text5{
+    margin-top: 55px;
+    margin-left: 74px;
+    letter-spacing: 1px;
+    font-size: 27px;
+}
+.cafe1{
+    margin-left: 74px;
+    margin-top: 34px;
+    width: 271px;
+    height: 335px;
+}
+.seta1{
+    height: 12px;
+    background-color: white;
+    padding: 11px;
+    border: 1px solid gray;
+    margin-left: 823px;
+    position: absolute;
+}
+.seta1:hover{
+    background-color: #F6BD4D;
+    border-color: #F6BD4D;
+    cursor: pointer;
+}
+.estrela{
+    position: absolute;
+    margin-top: 389px;
+    margin-left: -1172px;
+}
+.texto5{
+    margin-top: 45px;
+    margin-left: 75px;
+    font-weight: 700;
+    position: absolute;
+}
+.texto6{
+    margin-top: 70px;
+    margin-left: 75px;
+    position: absolute;
+    color: #995c31;
+    font-weight: bold;
+}
+#foto2{
+    margin-left: 70px;
+    width: 1177px;
+}
+#foto3{
+    position: absolute;
+    margin-left: 621px;
+    height: 80px;
+    position: absolute;
+    margin-left: 621px;
+}
+#texto7{
+    position: absolute;
+    color: white;
+    margin-top: -132px;
+    width: 907px;
+    margin-left: 205px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 23px;
+    font-weight: 600;
+}
+#texto8{
+    position: absolute;
+    color: white;
+    margin-top: -80px;
+    margin-left: 607px;
+    font-size: 11px;
+    font-weight: 900;
+}
+.texto9{
+    position: absolute;
+    color: white;
+    margin-top: -103px;
+    margin-left: 626px;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: initial;
+}
+.texto9:hover{
+    color:#F6BD4D;
+    cursor: pointer;
+}
+.foto4{
+    position: absolute;
+    height: 100px;
+    margin-left: 128px;
+}
+.foto5{
+    margin-left: 78px;
+    height: 338px;
+}
+.texto10{
+    margin-left: 95px;
+    margin-top: -315px;
+    background-color: #F6BD4D;
+    position: absolute;
+    padding: 7px;
+    width: 120px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.texto11{
+    letter-spacing: 1px;
+    margin-left: 78px;
+    font-weight: 700;
+}
+.texto12{
+    letter-spacing: 1px;
+    margin-left: 78px;
+    font-size: 11px;
+    width: 570px;
+    font-weight: 600;
+    color: gray;
+}
+.texto13{
+    color: #F6BD4D;
+    font-size: 12px;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-left: 79px;
+}
+#bloco1{
+    background-color: #0a0a0a;
+    height: 135px;
+    width: 1349px;
+    position: absolute;
+    margin-left: -8px;
+}
+#foto6{
+    margin-top: 26px;
+    margin-left: 86px;
+}
+#texto14{
+    font-weight: 700;
+    position: absolute;
+    color: white;
+    margin-top: -58px;
+    margin-left: 152px;
+    font-size: 22px;
+}
+#texto15{
+    font-weight: bold;
+    position: absolute;
+    color: gray;
+    margin-top: -35px;
+    margin-left: 152px;
+    font-size: 15px;
+}
+#input1{
+    margin-left: 626px;
+    margin-top: 43px;
+    position: absolute;
+    height: 50px;
+    text-decoration: none;
+    width: 405px;
+}
+#botao1{
+    margin-left: 1031px;
+    margin-top: 43px;
+    position: absolute;
+    height: 50px;
+    width: 93px;
+    background-color: #F6BD4D;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-color: #F6BD4D;
+    font-size: 10px;
+}
+#bloco2{
+    background-color: #191919;
+    height: 370px;
+    width: 1349px;
+    position: absolute;
+    margin-left: -8px;
+}
+.texto16{
+    color: white;
+    margin-top: 75px;
+    margin-left: 90px;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+#line1{
+    margin-top: 75px;
+    margin-left: 750px;
+    position: absolute;
+    background-color: gray;
+    height: 200px;
+    width: 1px;
+}
+.texto17{
+    color: #cccccc;
+    margin-top: 128px;
+    margin-left: 90px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+.texto18{
+    color: #cccccc;
+    margin-top: 154px;
+    margin-left: 90px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+.texto19{
+    color: #cccccc;
+    margin-top: 180px;
+    margin-left: 90px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+.texto20{
+    color: #cccccc;
+    margin-top: 206px;
+    margin-left: 90px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+.texto21{
+    color: #cccccc;
+    margin-top: 232px;
+    margin-left: 90px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+.foto7{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 128px;
+}
+.texto17:hover{
+    color:#F6BD4D;
+    cursor: pointer;
+}
+.texto18:hover{
+    color:#F6BD4D;
+    cursor: pointer;
+}
+.texto19:hover{
+    color:#F6BD4D;
+    cursor: pointer;
+}
+.texto20:hover{
+    color:#F6BD4D;
+    cursor: pointer;
+}
+.texto21:hover{
+    color:#F6BD4D;
+    cursor: pointer;
+}
+.texto22:hover{
+    color:#F6BD4D;
+    cursor: pointer;
+}
+.foto8{
+    position: absolute;
+    margin-left: 1025px;
+    margin-top: 128px;
+}
+.foto9{
+    position: absolute;
+    margin-left: 1025px;
+    margin-top: 231px;
+    height: 18px;
+    width: 18px;
+    background-color: #191919;
+    padding: 13px;
+    border-radius: 30px;
+}
+.foto9:hover{
+    background-color: #F6BD4D;
+    transition-duration: 0.5s;
+}
+#line2{
+    margin-left: 35px;
+    margin-top: 310px;
+    background-color: gray;
+    height: 1px;
+    width: 1240px;
+    position: absolute;
+}
+.texto22{
+    color: white;
+    margin-top: 336px;
+    margin-left: 35px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+.foto10{
+    margin-top: 320px;
+    margin-left: 935px;
+    position: absolute;
+}

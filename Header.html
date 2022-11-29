@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<link href="LoginFormStyleSheet.css" rel="stylesheet" />
+<link href="HeaderStyle.css" rel="stylesheet" />
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        function SaveLogin()
+        {
+            if (document.Login.email.value != null && document.Login.psw.value != null &&
+                document.Login.pswRepeat.value != null)
+            {
+                if (document.Login.psw.value == document.Login.pswRepeat.value)
+                {
+                    localStorage.setItem("Email", document.Login.email.value);
+                    localStorage.setItem("Password", document.Login.psw.value);
+                }
+                else
+                {
+                    alert("As senhas estão diferentes");
+                }
+            }
+            else
+            {
+                alert("Preencha todos os campos!");
+            }
+        }
+    </script>
+    <section class="HeaderGreySection">
+        <a href="#Shipping" class="ShippingLink">
+            <img src="Icons/iconfinder_Shipping_Delivery_Truck_Fast_4075944.png" class="ShippingIcon" />
+            <p class="ShippingText">Entrega Gratis</p>
+        </a>
+        <p Separators="Separators">|</p>
+        <a href="#Offers" class="OffersLink">
+            <img src="Icons/iconfinder_christmas-06_3927511.png" class="OffersIcon" />
+            <p class="OffersText">Ofertas Especiais</p>
+        </a>
+        <a href="Home" class="LogoLink">
+            <img src="Icons/logo.png" class="LogoImg" />
+        </a>
+        <a class="AccountLink" onclick="document.getElementById('id01').style.display = 'block'" style="width:auto;">
+            <img src="Icons/iconfinder_Customize_user_profile_Account_man_1_4484738.png" class="AccountIcon" />
+            <p class="AccountText">Cadastre-se<br />& Entre de Graça</p>
+        </a>
+        <a href="#Cart" class="CartLink">
+            <img src="Icons/iconfinder_cart_1814095.png" class="CartIcon" />
+            <p class="CartText">Meu Carrinho</p>
+        </a>
+        <div class="topnav">
+            <a class="active" href="#home">Principal</a>
+            <a href="#news">Shopping</a>
+            <a href="#contact">Cardapio</a>
+            <a href="#about">Contato</a>
+        </div>
+    </section>
+
+    <!--LoginForm-->
+
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form name="Login" class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Cadastre-se</h1>
+                <p>Por Favor Preencha Os Campos Para Criar Uma Conta</p>
+                <hr>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Insira o Email" name="email" required>
+
+                <label for="psw"><b>Senha</b></label>
+                <input type="password" placeholder="Insira a Senha" name="psw" required>
+
+                <label for="psw-repeat"><b>Confirme a Senha</b></label>
+                <input type="password" placeholder="Confirme a Senha" name="pswRepeat" required>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Lembrar De Mim
+                </label>
+
+                <p>Ao criar uma conta você concorda com nossos <a href="#" style="color:dodgerblue">Termos & Privacidade</a>.</p>
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+                    <button type="submit" class="signupbtn" onclick="SaveLogin()">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
